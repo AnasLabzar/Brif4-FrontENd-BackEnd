@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student list</title>
+    <link rel="stylesheet" href="liste.css">
+    <script defer src="script.js"></script>
+
+    
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="container">
+    <a  href="#">
+        <img id="logo-img1" src="logo_WHITE.png" alt="logo">
+        <img id="logo-img2" src="logo_green.png" alt="logo">
+    </a>
+    <div class="burger">
+    <h5>person@email.com</h5>
+    <div class="menu">
+    <img style="width: 60%;" src="BURGER.svg" alt="burger">
+</div>
+</div>
+</div>
+</div>
+    <nav>
+<ul hidden>
+<li><a href="">  >  Student Dashboard  </a> </li>
+<li><a href="">  >  Settings  </a> </li>
+<li><a href="">  >  Contact  </a> </li>
+<li><a href="">  >  Log out  </a> </li>
+</ul>
+    </nav>
+    <div class="containerSelction">
+<h1 style="text-align: center;">Student Lists</h1>
+        <ul>
+          
+            <li>
+                
+                <span class="ID">0001</span>
+                <span class="name">Youssef Ezzohayly</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+            <li>
+                <span class="ID">0002</span>
+                <span class="name">Anas Lazbar</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+            <li>
+                <span class="ID">0003</span>
+                <span class="name">Chaimaa Nmaisse</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+            <li>
+                <span class="ID">0004</span>
+                <span class="name">Youness Sakazo</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+            <li>
+                <span class="ID">0005</span>
+                <span class="name">Hamza Walakin</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+            <li>
+                <span class="ID">0006</span>
+                <span class="name">Saad Chamach</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+            <li>
+                <span class="ID">0007</span>
+                <span class="name">Reda Garmalo</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+              
+            </li>
+            <li>
+                <span class="ID">0008</span>
+                <span class="name">Sara Bardaoui</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+            <li>
+                <span class="ID">0009</span>
+                <span class="name">Ahmed Zarwali</span>
+                <button class="vvvv" onclick="show_hide()" > v </button>
+                
+            </li>
+
+
+        </ul>
+<div id="v">
+<button class="button5 button10">View</button>
+<button class="button5 button11">Edit</button>
+<button class="button5 button12">Delete</button>
+
+</div>
+
+
+
+</div>
+
+
+<button data-modal-target="#modal"><img style="position: absolute; top: 90%; right: 2%; cursor: pointer;" src="Feedback-icon.png" alt="chat"></button>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title1">HOW CAN WE HELP ?</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="icon1">
+          <img src="A.png" alt="A">
+        </div>
+        <div>
+          <h3>Help Center</h3>
+          <p>Answers to fequently asked questions</p>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="icon1">
+          <img src="B.png" alt="B">
+        </div>
+        <div>
+          <h3>Student success</h3>
+          <p>Help with general questions or issues</p>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="icon1">
+          <img src="C.png" alt="c">
+        </div>
+        <div>
+          <h3>Feedback</h3>
+          <p>Let us know how we're doing!</p>
+        </div>
+</div>
+
+      
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+
+
+</body>
+</html>
