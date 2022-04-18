@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="29" height="19.801" viewBox="0 0 29 19.801">
-  <g id="BURGER" transform="translate(1.5 1.5)">
-    <line id="Ligne_5" data-name="Ligne 5" x2="26" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
-    <line id="Ligne_6" data-name="Ligne 6" x2="26" transform="translate(0 7.958)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
-    <line id="Ligne_7" data-name="Ligne 7" x2="26" transform="translate(0 16.801)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="19.801" viewBox="0 0 29 19.801"><g id="BURGER" transform="translate(1.5 1.5)"><line id="Ligne_5" x2="26" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" data-name="Ligne 5"/><line id="Ligne_6" x2="26" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" data-name="Ligne 6" transform="translate(0 7.958)"/><line id="Ligne_7" x2="26" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" data-name="Ligne 7" transform="translate(0 16.801)"/></g></svg>
